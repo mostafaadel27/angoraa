@@ -1,0 +1,470 @@
+.top{
+    top: 50%;
+    left: 0;
+
+}
+
+.carousel-control-next, .carousel-control-prev{
+    display: flex;
+    justify-content: left;
+    position: absolute;
+    left: 0;
+    
+    align-items: center;
+    padding-left: 0;
+    width: 0;
+    padding: 0;
+}
+.carousel-control-next{
+    top: 107px;
+}
+.f{
+    transition: .5s;
+}
+.f:hover{
+    background-color: white;
+    color: brown !important;
+    
+}
+.z{
+    z-index: 2;
+    position: absolute;
+}
+.z3{
+    z-index: 3;
+}
+.image{
+    background-image: url(../acf23eca-5248-422a-b613-634cc46cfabc/slideshow-1.jpg);
+    height: 100vh;
+}
+.image2{
+    background-image: url(../acf23eca-5248-422a-b613-634cc46cfabc/slideshow-2.jpg);
+    height: 100vh;
+}
+.image3{
+    background-image: url(../acf23eca-5248-422a-b613-634cc46cfabc/slideshow-3.jpg);
+    height: 100vh;
+}
+.fw{
+    font-size: 5px;
+    font-weight: 900;
+    
+}
+.x{
+    display: flex;
+    justify-content: center;
+    animation-name:text ;
+    animation-duration: 1s;
+}
+@keyframes text{
+    from{
+       right: -100%;
+    }
+    to{
+        right: 0%;
+        visibility: visible;
+    }
+}
+.af{
+    color: white; 
+    
+}
+.af:hover{
+    color: crimson !important;
+    transition: .5s;
+}
+.h::after{
+    content: "A";
+    opacity: 10%;
+    position: absolute;
+    left: 50%;
+    bottom: -5px;
+    text-align: center;
+    transform: translateX(-50%);
+    font-size: 70px;
+}
+.c::after{
+    content: "C";
+    opacity: 10%;
+    position: absolute;
+    left: 50%;
+    bottom: -5px;
+    text-align: center;
+    transform: translateX(-50%);
+    font-size: 70px;
+}
+.o::after{
+    content: "O";
+    opacity: 10%;
+    position: absolute;
+    left: 50%;
+    bottom: -5px;
+    text-align: center;
+    transform: translateX(-50%);
+    font-size: 70px;
+}
+.s::after{
+    content: "S";
+    opacity: 10%;
+    position: absolute;
+    left: 50%;
+    bottom: -5px;
+    text-align: center;
+    transform: translateX(-50%);
+    font-size: 70px;
+}
+.g::after{
+    content: "G";
+    opacity: 10%;
+    position: absolute;
+    left: 50%;
+    bottom: -5px;
+    text-align: center;
+    transform: translateX(-50%);
+    font-size: 70px;
+}
+.h::before{
+    content: "";
+    border: 0.1px solid #000;
+    width: 3%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    top: 100%;
+    margin-top: 20px;
+    transform: translateX(-50%);
+    transition: .5s;
+}
+.c::before{
+    content: "";
+    border: 0.1px solid #000;
+    width: 3%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    top: 100%;
+    margin-top: 20px;
+    transform: translateX(-50%);
+    transition: .5s;
+}
+.o::before{
+    content: "";
+    border: 0.1px solid #000;
+    width: 3%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    top: 100%;
+    margin-top: 20px;
+    transform: translateX(-50%);
+    transition: .5s;
+}
+.s::before{
+    content: "";
+    border: 0.1px solid #000;
+    width: 3%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    top: 100%;
+    margin-top: 20px;
+    transform: translateX(-50%);
+    transition: .5s;
+}
+.g::before{
+    content: "";
+    border: 0.1px solid #000;
+    width: 3%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    top: 100%;
+    margin-top: 20px;
+    transform: translateX(-50%);
+    transition: .5s;
+}
+.head:hover .o::before{
+    width: 5%;
+}
+.head:hover .c::before{
+    width: 5%;
+}
+.head:hover .s::before{
+    width: 5%;
+}
+.head:hover .g::before{
+    width: 5%;
+}
+.head:hover .h::before{
+    width: 5%;
+}
+.pl{
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.h-2{
+    height: 5px;
+}
+.me-6::after{
+    content: "80%";
+    margin-right: 90px;
+    animation-name: m;
+    animation-duration: 5s;
+}
+.me-7::after{
+    content: "95%";
+    margin-right: 10px;
+    animation-name: m;
+    animation-duration: 5s;
+}
+.me-8::after{
+    content: "85%";
+    margin-right: 65px;
+    animation-name: m;
+    animation-duration: 5s;
+}
+.me-9::after{
+    content: "70%";
+    margin-right: 160px;
+    animation-name: m;
+    animation-duration: 5s;
+}
+@keyframes m{
+    0%{
+        opacity: 0%;
+    }
+    
+    100%{
+        opacity: 100%;
+    }
+}
+.Branding{
+    animation-name: Brag ;
+    animation-duration: 3s;
+    width: 80%;
+}
+
+.web{
+    animation-name: w ;
+    animation-duration: 3s;
+    width: 95%;
+}
+
+.graphic{
+    animation-name: g ;
+    animation-duration: 3s;
+    width: 85%;
+}
+.development{
+    animation-name: d ;
+    animation-duration: 3s;
+    width: 70%;
+}
+@keyframes Brag{
+    from{
+        width: 0%;
+    }
+    to{
+        width: 80%;
+    }
+}
+@keyframes w{
+    from{
+        width: 0%;
+    }
+    to{
+        width: 95%;
+    }
+}
+@keyframes g{
+    from{
+        width: 0%;
+    }
+    to{
+        width: 85%;
+    }
+}
+@keyframes d{
+    from{
+        width: 0%;
+    }
+    to{
+        width: 70%;
+    }
+}
+.over{
+    transition: .5s;
+}
+.im:hover .over{
+    background-color: rgb(220, 20, 60 , .7);
+}
+.over i{
+    transition: .3s;
+    opacity: 0%;
+}
+.im:hover .over i{
+    opacity: 100%;
+}
+.im{
+    overflow: hidden;
+}
+img{
+    transition: .4s;
+}
+.d:hover h4{
+    color: crimson;
+}
+.im:hover img{
+    transform: scale(1.1);
+}
+.bb{
+    background-color: crimson;
+}
+.bb:hover{
+    background-color: rgb(184, 32, 63);
+}
+.pt-2 h5{
+    transition: .3s;
+}
+.pt-2:hover h5{
+    color: crimson;
+}
+.bord::after{
+    content: "";
+    border: 1px solid rgb(209, 204, 204);
+    width: 80%;
+    display: flex;
+    height: .5px;
+    position: absolute;
+    top: 80%;
+    margin-top: 20px;
+    text-align: center;
+}
+.bh{
+    border: 1px solid rgb(195, 190, 190);
+}
+.u{
+    width: 30px;
+    height: 50px;
+    bottom: 5%;
+    left: 50%;
+    border: 1px solid rgb(255, 255, 255);
+}
+.q{
+    width: 10px;
+    height: 10px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    top: 50%;
+    right: 12%;
+    transform: translateX(-50%);
+    animation-name: qq;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+@keyframes qq{
+    0%{
+        top:20%;
+        opacity: 80%;
+    }
+    
+    100%{
+        top: 80%;
+        opacity: 0;
+    }
+}
+
+footer{
+    background-image: url(../acf23eca-5248-422a-b613-634cc46cfabc/dotted-map.png);
+    background-size: contain;
+    width: 100%;
+    background-color: rgb(43, 42, 42);
+    color: white;
+}
+footer img{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.pt-9{
+    padding-top: 80px;
+}
+a{
+    text-decoration: none;
+}
+.mt-6{
+    position: absolute;
+    top: 50px;
+    
+}
+.tag a:hover{
+    transition: .3s;
+}
+.tag a:hover{
+    color: crimson !important;
+    border: 1px solid crimson !important;
+}
+.h45{
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    left: 50%;
+    margin-bottom: 40px;
+    text-align: center;
+    transform: translate(-50%,-90%);
+}
+.fa-chevron-up{
+    transform: translateY(-50%);
+}
+.imag img{
+    width: 150px;
+    height: 150px;
+}
+.hov{
+    transition: .5s;
+}
+.hov:hover{
+    color: crimson !important;
+
+}
+.hove{
+    transition: .5s;
+}
+.hove:hover{
+    opacity: 100% !important;
+}
+.setting{
+    width: 40px;
+    height: 40px;
+    left: 0;
+    top: 30%;
+    z-index: 99999999;
+
+}
+.fa-gears{
+    top: 50%;
+    right: 50%;
+    transform: translate(50% ,-50%);
+}
+.ho{
+    transition: .1s;
+}
+.ho:hover{
+    background-color: rgb(92, 88, 88) !important;
+}
